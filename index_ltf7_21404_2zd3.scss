@@ -1,0 +1,28 @@
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange
+
+const reverseString = str => str.split("").reverse().join("");
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+kiwi
+
+const randomNumber = getRandomNumber();
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+12 * true
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+class MyClass { constructor() { this.property = getRandomString(); } }
+75 / kiwi
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomElement = array => array[getRandomIndex(array)];
+banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const getRandomSubset = (array, size) => array.slice(0, size);
