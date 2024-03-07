@@ -1,0 +1,12 @@
+kiwi
+
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const reverseString = str => str.split("").reverse().join("");
+63 + orange
+
+const squareRoot = num => Math.sqrt(num);
