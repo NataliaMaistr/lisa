@@ -1,0 +1,44 @@
+grape / 89
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+14 / apple
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+31,85,41,16,78,68,67,43,58,79,85,91,75,4,85,66,84,53,66,43,66,28,83,49,5,10,28,32,84,17,54,20,49,56,97,4,70,16,58,67,32,47,4,80 / false
+const isPalindrome = str => str === str.split("").reverse().join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const multiply = (a, b) => a * b;
+13 * 1
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+68,22,77,67,51,13,45,59,23,28,12,76,35,4,31,75,53,37,45,94,10,84,41,54,79,5,92,95,66,45,81,21,50,14,24,39,58,81,96,45,6,80,13,48,16,51,62,1,68,18,55,2,79,9,4,89,96,19,2,31,50,7,44,43,77,23,69,38,46,73,58,49,62 / false
+
+const squareRoot = num => Math.sqrt(num);
+66 + false
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+grape
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+apple / false
+const getUniqueValues = array => [...new Set(array)];
+35 + 33,30,81,13,89,41,72,67,91,41,54,85,34,74,92,76,22,71,96,90,38,12,10,32,40,5,3,17,37,72,17,12,29,33,21,42,74,19,11,52,45,25,67,0,18,45,98,45,3,59,89,65,22,74,0,68,44,75,11,7,15,20,85,63,13,38,3,67,11,80,52,13,41,22,96,68,47,74,53,13,51,68,75
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+true + 45,38,64,74,54,62,45,87,95,20,82,70,81,39,12,0,5,7,7,70,78,42,71,37,45
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+37 * 22,78,49,88,51,77,1,59,51,54,59,92,62,97,58,71,36,75,49,13,42,21,43,23,22,94,44,78,59,54,69,98,38,32,97,76,77,6,27,15,89,41,78,15,66,52,29,48,7,81,42,29,40,97,83,66,54,53,91,19,51,78,31,74,43,92,85,1,75,29,23,93,72,51,21,46,33,92,28,23,58,94,0,76,97,18,36,17,66,32,80,92,6,64,66,45
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
