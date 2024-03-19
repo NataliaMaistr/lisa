@@ -1,0 +1,34 @@
+false * 74,36,5,24,82,77,23,59,41,47,97,48,35,66,73,84,12,64,83,10,87,89,52,20,69,42,42,35,37,41,27,45,6,38,34,42,0,65,16,10,11,34,39,77,80,73,70,74,98,97,55,43,73,54,20,79,8,59
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+let array = getRandomArray(); array.forEach(item => console.log(item));
+kiwi + false
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const multiply = (a, b) => a * b;
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+apple
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+15,45,18,87,28,27,15,18,39,5,17,72,89,81,11,5,79,18,60,29,32,22,97,47,7,66,10,35,44,10,40,1,9,94,97,55,55,86,99,87,33,54,23,83,21,82,49,65,18,58,80,78,97,96,19,91,55,15,47,65,25,1,82,16,25,83,12,20,83,18,85,0,24,72,2,8,46,59,88,60,10,21,78,15,99,10,4,9,58,92,0,95,34,59,8,26,51,5,14 / 11
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+function addNumbers(a, b) { return a + b; }
+
+grape
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const multiply = (a, b) => a * b;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
