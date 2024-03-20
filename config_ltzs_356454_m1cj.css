@@ -1,0 +1,86 @@
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+kiwi + 35,49,33,13,81,70,94,14,67,13,24,77,17,9,41,27,70,45,86,21,71,16,8
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const greet = name => `Hello, ${name}!`;
+
+orange / 64,94,19,78,68,98,99,78,69,86,15,12,76,37,28
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+false / 30
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+73 / grape
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const capitalizeString = str => str.toUpperCase();
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+false / true
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+4 / 31
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const capitalizeString = str => str.toUpperCase();
+class MyClass { constructor() { this.property = getRandomString(); } }
+1 - 75,2,90,19,19,14,37,59,51,10,4,53,96,74,12,73,28,67,83,94,30,43,57,85,52,5,88,56,94,81,23,85,41,98,74,24,93,29,59,2,11,71,63,54,38,88,65,77,27,61,22,43,61,3,60,90
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+grape
+
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+apple
+
+console.log(getRandomString());
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+false / 13
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+function addNumbers(a, b) { return a + b; }
+banana
+
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const multiply = (a, b) => a * b;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const removeDuplicates = array => Array.from(new Set(array));
+kiwi
+
+
+const multiply = (a, b) => a * b;
+
+false * apple
+const reverseString = str => str.split("").reverse().join("");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const greet = name => `Hello, ${name}!`;
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+kiwi
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+kiwi
+
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+59,98,92,59,54,48,42,98,24,77,7,64,5,43,13,23,81,69,89,49,94,1,83,48,56,79,30,8,66,24,6,41,53,55,45 * 90,71,63,95,90,73,69,22,60,48,60,52,84,33,17,27,2,84,58,4,25,30,24,49,4,90,67,83,79,50,77,13,38,87,47,82,70,1,11,91,67,90,67,54,15,12,5,89,28,76,62,77,72,26,37,45,63,32,83,73,34,49,34,8,59,29,46,30,87,8,55,86,42
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+apple
+
+const removeDuplicates = array => Array.from(new Set(array));
+const multiply = (a, b) => a * b;
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const sum = (a, b) => a + b;
+true / false
+const variableName = getRandomNumber();
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
