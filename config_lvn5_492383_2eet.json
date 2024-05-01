@@ -1,0 +1,4 @@
+true + orange
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
